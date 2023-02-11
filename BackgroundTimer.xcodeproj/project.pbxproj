@@ -11,6 +11,8 @@
 		A270BEDE29983581003E5125 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A270BEDD29983581003E5125 /* ContentView.swift */; };
 		A270BEE029983582003E5125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A270BEDF29983582003E5125 /* Assets.xcassets */; };
 		A270BEE329983582003E5125 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A270BEE229983582003E5125 /* Preview Assets.xcassets */; };
+		A270BEEA29983693003E5125 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A270BEE929983693003E5125 /* ContentViewModel.swift */; };
+		A270BEEC29983AA2003E5125 /* BackgroundDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A270BEEB29983AA2003E5125 /* BackgroundDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		A270BEDD29983581003E5125 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A270BEDF29983582003E5125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A270BEE229983582003E5125 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A270BEE929983693003E5125 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		A270BEEB29983AA2003E5125 /* BackgroundDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				A270BEDB29983581003E5125 /* BackgroundTimerApp.swift */,
 				A270BEDD29983581003E5125 /* ContentView.swift */,
+				A270BEE929983693003E5125 /* ContentViewModel.swift */,
 				A270BEDF29983582003E5125 /* Assets.xcassets */,
 				A270BEE129983582003E5125 /* Preview Content */,
+				A270BEEB29983AA2003E5125 /* BackgroundDataManager.swift */,
 			);
 			path = BackgroundTimer;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				A270BEDE29983581003E5125 /* ContentView.swift in Sources */,
 				A270BEDC29983581003E5125 /* BackgroundTimerApp.swift in Sources */,
+				A270BEEA29983693003E5125 /* ContentViewModel.swift in Sources */,
+				A270BEEC29983AA2003E5125 /* BackgroundDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
